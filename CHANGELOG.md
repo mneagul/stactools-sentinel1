@@ -9,6 +9,16 @@ This project attempts to match the major and minor versions of
 [stactools](https://github.com/stac-utils/stactools) and increments the patch
 number as needed.
 
+## [Unreleased]
+
+### Changed
+
+- Relaxed the `pystac` dependency from `~= 1.9.0` to `~= 1.9` so the package can
+  be installed alongside pystac 1.10+. The previous
+  specifier stranded downstream projects on modern pystac and blocked them
+  from the Sentinel-1C/1D regex fix (#62); the wider `~= 1.9` (`>=1.9,<2.0`) keeps the major-version guard.
+  ([#NN](https://github.com/stactools-packages/sentinel1/pull/NN))
+  
 ## [0.8.1] - 2025-05-13
 
 ### Fixed
