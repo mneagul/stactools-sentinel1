@@ -17,7 +17,7 @@ number as needed.
   be installed alongside pystac 1.10+. The previous
   specifier stranded downstream projects on modern pystac and blocked them
   from the Sentinel-1C/1D regex fix (#62); the wider `~= 1.9` (`>=1.9,<2.0`) keeps the major-version guard.
-  ([#NN](https://github.com/stactools-packages/sentinel1/pull/NN))
+  ([#64](https://github.com/stactools-packages/sentinel1/pull/64))
   
 ## [0.8.1] - 2025-05-13
 
